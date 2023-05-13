@@ -1,0 +1,20 @@
+Proceso Determinar Numero Par
+
+    Contante<-2
+    numero_ingresado<-1
+    Mientras numero_ingresado<> 0 Hacer
+        Escribir "Ingrese un Numero:" 
+        Leer numero_ingresado
+        si numero_ingresado <> 0 entonces 
+            residuo= numero_ingresado mod constante
+
+            Si residuo <> 0
+                Escribir "El numero ingresado es Impar"
+            sino
+                Escribir "El numero ingresado es Par"
+            FinSi
+        FinSi
+
+    FinMientras
+
+Fin del Proceso
